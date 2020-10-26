@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".DirectoryActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="#ebe6bc"
+        android:text="@string/subDirectory"
+        android:id="@+id/subDirectory"/>
+
+    <TextView
+        android:id="@+id/subDirSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ebe6bc"
+        android:paddingTop="4dp"
+        android:paddingBottom="8dp"
+        android:text="@string/subDirectory_instruction"/>
+
+    <ListView
+        android:id="@+id/sub_directory_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ebe6bc"
+        android:layout_gravity="left"
+        android:entries="@array/options"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ebe6bc" />
+
+</LinearLayout>

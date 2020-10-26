@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/viewSwitcher">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="16dp"
+            android:text="@string/welcome"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ebe6bc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/appName"
+            android:id="@+id/textTitle2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ebe6bc" />
+
+        <ImageView
+            android:id="@+id/photo_logo"
+            android:layout_width="139dp"
+            android:layout_height="224dp"
+            android:layout_below="@id/textTitle2"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="The Constitution"
+            android:paddingTop="16dp"
+            android:src="@drawable/constitution_cropsmall"
+            android:textColor="#ebe6bc" />
+
+        <TextView
+            android:id="@+id/start_contents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/photo_logo"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:paddingTop="16dp"
+            android:text="@string/appDescription"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ebe6bc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="8dp"
+            android:text="@string/company"
+            android:textColor="#ebe6bc" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#000000"
+        tools:context="activity_main">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ebe6bc"
+            android:text="@string/directory"
+            android:id="@+id/mainDirectory"/>
+
+        <TextView
+            android:id="@+id/howTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ebe6bc"
+            android:paddingTop="4dp"
+            android:paddingBottom="8dp"
+            android:text="@string/directory_instruction"/>
+
+        <ListView
+            android:id="@+id/main_directory_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="#ebe6bc"
+            android:entries="@array/options"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ebe6bc" />
+
+    </LinearLayout>
+
+</ViewSwitcher>

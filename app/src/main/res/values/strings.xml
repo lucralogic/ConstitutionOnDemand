@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Constitution On Demand</string>
+    <string name="welcome">Welcome To</string>
+    <string name="appName">The Constitution On Demand</string>
+    <string name="company">Sponsored by Lucralogic</string>
+    <string name="appDescription">Contains the Constitution, Bill of Rights, Amendments, and Selected Court Rulings.\n  Bonus:  Virginia Statute of Religious Freedom &amp; Virginia Declaration of Rights</string>
+    <string name="appDescriptionLand">Contains the Constitution, Bill of Rights, Amendments, and Selected Court Rulings.  Bonus:  Virginia Statute of Religious Freedom &amp; Virginia Declaration of Rights</string>
+    <string name="opening_label">Constitution On Demand</string>
+    <string-array name="options">
+        <item>User Guide &amp; Historical Background</item>
+        <item>United States Constitution</item>
+        <item>Bill of Rights (Amendments 1 to 10)</item>
+        <item>Constitutional Amendments 11 to 27</item>
+        <item>Summarized Court Rulings And Opinions</item>
+        <item>Virginia Statute of Religious Freedom</item>
+        <item>Virginia Declaration of Rights</item>
+    </string-array>
+    <string name="directory">Main Directory</string>
+    <string name="title_activity_constitution">ConstitutionActivity</string>
+    <string name="directory_instruction">Select A Document From The Directory</string>
+    <string name="subDirectory">Document Directory</string>
+    <string name="subDirectory_instruction">For Complete Text Make Menu Selection</string>
+    <string name="documentContent">Selected Document</string>
+    <string name="contentInstruction">Selected Content</string>
+</resources>
