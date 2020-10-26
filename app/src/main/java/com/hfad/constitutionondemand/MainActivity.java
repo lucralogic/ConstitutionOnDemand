@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
             isFirst = savedInstanceState.getBoolean("first");
         }
         final Handler opening_handler = new Handler();
-        switcher = (ViewSwitcher) findViewById(R.id.viewSwitcher);
+        switcher =  findViewById(R.id.viewSwitcher);
         if(!isFirst) {
             opening_handler.postDelayed(new Runnable() {
                 @Override
@@ -68,7 +68,7 @@ public class MainActivity extends Activity {
             }
         };
         //Add the listener to the list view
-        ListView listView = (ListView) findViewById(R.id.main_directory_list);
+        ListView listView = findViewById(R.id.main_directory_list);
         listView.setOnItemClickListener(itemClickListener);
     }
 

@@ -21,10 +21,10 @@ public class DirectoryActivity extends Activity {
         Intent intent = getIntent();
         position = intent.getIntExtra("selectedDocument", 0);
         ArrayAdapter<Content> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,Content.contents[position]);
-        ListView listView = (ListView) findViewById(R.id.sub_directory_list);
+        ListView listView = findViewById(R.id.sub_directory_list);
         listView.setAdapter(adapter);
         //Set the selected subdirectory to the TextView
-        TextView subDirSelected = (TextView)findViewById(R.id.subDirectory);
+        TextView subDirSelected = findViewById(R.id.subDirectory);
         Resources res = getResources();
         String[] options = res.getStringArray(R.array.options);
         subDirSelected.setText(options[position]);

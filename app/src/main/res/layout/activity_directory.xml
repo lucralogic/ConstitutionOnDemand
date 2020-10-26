@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#ebe6bc"
         android:text="@string/subDirectory"
         android:id="@+id/subDirectory"/>
@@ -32,8 +32,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#ebe6bc"
-        android:layout_gravity="left"
+        android:layout_gravity="start"
         android:entries="@array/options"/>
+    <!-- left changed to start in ListView -->
 
     <TextView
         android:layout_width="match_parent"
