@@ -38,7 +38,6 @@ public class DirectoryActivity extends Activity {
             }
         };
         //Add the listener to the list view
-        ListView dirListView = (ListView) findViewById(R.id.sub_directory_list);
-        dirListView.setOnItemClickListener(dirClickListener);
+        listView.setOnItemClickListener(dirClickListener);
     }
 }
