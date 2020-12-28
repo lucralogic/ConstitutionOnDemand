@@ -8,10 +8,10 @@
     <string name="opening_label">Constitution On Demand</string>
     <string-array name="options">
         <item>User Guide &amp; Historical Background</item>
-        <item>United States Constitution</item>
-        <item>Bill of Rights (Amendments 1 to 10)</item>
+        <item>United States Constitution, 1787</item>
+        <item>Bill of Rights, 1791 (Amend 1 to 10)</item>
         <item>Constitutional Amendments 11 to 27</item>
-        <item>Summarized Court Rulings And Opinions</item>
+        <item>Selected Court Rulings And Opinions</item>
         <item>Virginia Statute of Religious Freedom</item>
         <item>Virginia Declaration of Rights</item>
     </string-array>

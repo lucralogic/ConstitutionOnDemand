@@ -50,7 +50,7 @@ public class MainActivity extends Activity {
                     // Delay for a while
                     switcher.showNext();
                 }
-            }, 5000);
+            }, 1500);
         } else switcher.showNext();
         //Add Adapter to handle selections in ListView
         AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener() {
